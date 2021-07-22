@@ -1,0 +1,217 @@
+<!-- Need to Add :  
+	1. Alert
+	2. Scrollspy -- 
+	3. Form -- Maybe for sign in
+	4. Progress Bar -- Ratings
+-->
+
+<!-- USE BOOTSTRAP V4.0 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dreamworksbnb</title>
+
+	<!-- Bootstrap Links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="m-0 alert alert-success" role="alert">
+  		Great News! Use the code 'PREFACE' to get a 30% discount!
+	</div>
+
+	<div id="banner">
+		<img id="banner1" src="banner1.jpg">
+		<img id="banner2" src="black.jpg">
+
+		<div>
+			<a class="nav-link" href="#aboutUs"><h2 class="scrollspy">About Us</h2></a>
+			<a class="nav-link" href="#best"><h2 class="scrollspy">Ratings</h2></a>
+			<a class="nav-link" href="#signin"><h2 class="scrollspy">Sign In</h2></a>
+		</div>
+	</div>
+	<div id="aboutUs">
+
+		<h2>About Us</h2>
+		<p class="paragraph">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>	
+		
+	</div>
+
+	<div id="background">
+
+		<div>
+			<h2 id="best" class="heading">Top-rated apartments</h2>
+
+			<div class="ratings">
+				<div>
+					<img class='rooms' src="room1.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div>
+					<img class="rooms" src="room2.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div>
+					<img class="rooms" src="room3.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div>
+					<img class="rooms" src="room4.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+			<div class="ratings">
+				<div>
+					<img class='rooms' src="room1.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div>
+					<img class="rooms" src="room2.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div>
+					<img class="rooms" src="room3.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div>
+					<img class="rooms" src="room4.jpg">
+					<p>Cleanliness</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Location</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Value</p>
+					<div class="progress">
+					  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="signin">
+		<img class="image" src="signin.jpg">
+		<div id="form">
+			<h2 id="SignInTitle">Sign In</h2>
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1"><span>Email address</span></label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1"><span>Password</span></label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-check">
+			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+			  </div>
+			  <a id="link" href="#"><p>Create a New Account</p></a>
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

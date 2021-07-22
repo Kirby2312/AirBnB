@@ -1,0 +1,116 @@
+#banner1{
+	width: 70%;
+	position: relative;
+}
+
+#banner2{
+	width: 30%;
+	position: relative;
+}
+
+#banner{
+	display: flex;
+	padding: 0;
+}
+
+#banner>div{
+	position: absolute;
+	top: 30%;
+	left: 65%;
+}
+
+.scrollspy{
+	background-color: white;
+	padding: 30px;
+	text-align: center;
+}
+
+#signin{
+	background-color: #CCCCFF;
+	width: 100%;
+	
+	display: flex;
+}
+
+.form-group{
+	width: 70%;
+}
+
+#SignInTitle{
+	text-align: left;
+	padding: 5px;
+	font-size: 300%;
+}
+
+.image{
+	width: 70%;
+}
+
+#aboutUs{
+	background-color: lightgray;
+	padding: 20%;
+
+}
+
+.paragraph{
+	font-size: 150%;
+	text-align: justify;
+}
+
+.rooms{
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.progress{
+	width: 50%;
+	height: 5px;
+}
+
+.ratings{
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 50px;
+}
+
+#background{
+	background-color: #d3e8df;
+}
+
+.heading{
+	text-align: center;
+	padding: 100px;
+/*	padding-top: 100px;*/
+}
+
+#form{
+	padding: 30px;
+}
+
+span{
+	font-size: 200%;
+}
+
+small{
+	font-size: 150%;
+}
+
+label{
+	font-size: 120%;
+}
+
+#link{
+	font-size: 150%;
+}
+
+button{
+	width: 30%;
+	height: 50px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
